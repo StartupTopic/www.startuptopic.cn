@@ -19,12 +19,12 @@
 <meta charset="<?php bloginfo( 'charset' ); ?>">
 <meta name="viewport" content="width=device-width,  user-scalable=no">
 <meta name="author" content="DennyZhang" />
-<meta name="copyright" content="DennyZhang.com" />
+<meta name="copyright" content="startuptopic.cn" />
 <title><?php wp_title( '|', true, 'right' ); ?></title>
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <link rel="icon" href="<?php echo esc_url( get_template_directory_uri() . '/images/icon.png' ); ?>" type="image/x-icon">
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
-<link type="text/plain" rel="author" href="http://www.dennyzhang.com/humans.txt" />
+<link type="text/plain" rel="author" href="http://www.startuptopic.cn/humans.txt" />
 <link rel="prerender"  href="/portfolio/">
 <link rel="prerender"  href="/service/">
 <link rel="prerender"  href="/blog/">

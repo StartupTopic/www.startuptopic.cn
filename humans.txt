@@ -15,12 +15,12 @@
     CSS3, HTML5
     Grunt, HTML5, jQuery
 
-    Source: https://github.com/DennyZhang/www.dennyzhang.com
+    Source: https://github.com/DennyZhang/www.startuptopic.cn
 
 -- 
 Denny Zhang(张巍)
 Email: denny.zhang001@gmail.com
-Website: http://www.dennyzhang.com/
+Website: http://www.startuptopic.cn/
 
 Don't judge someone's past, when you haven't walked their journey!
 
