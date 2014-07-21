@@ -1,0 +1,71 @@
+<?php
+/**
+ * Footer template
+ *
+ * @package Portfolio Press
+ */
+?>
+	</div>
+	</div><!-- #main -->
+
+	<footer id="colophon">
+		<div class="col-width">
+		<div id="site-generator">
+			<p>
+				@2014&nbsp;&nbsp;<a href="<?php echo esc_url(home_url());?>">startuptopic.cn</a>
+			</p>
+		</div>
+
+	    <?php if ( is_active_sidebar('footer-1') ||
+			is_active_sidebar('footer-2') ||
+			is_active_sidebar('footer-3') ||
+			is_active_sidebar('footer-4') ) : ?>
+
+			<div id="footer-widgets">
+
+				<?php $i = 0; while ( $i <= 4 ) : $i++; ?>
+					<?php if ( is_active_sidebar('footer-'.$i) ) { ?>
+
+				<div class="block footer-widget-<?php echo $i; ?>">
+		        	<?php dynamic_sidebar('footer-'.$i); ?>
+				</div>
+
+			        <?php } ?>
+				<?php endwhile; ?>
+
+				<div class="clear"></div>
+
+			</div><!-- /#footer-widgets  -->
+
+	    <?php endif; ?>
+		</div>
+	</footer><!-- #colophon -->
+</div><!-- #page -->
+
+<?php wp_footer(); ?>
+<script src="<?php echo esc_url( get_template_directory_uri() . '/js/head.min.js' ); ?>"></script>
+<script>
+    // head.load(
+    // 	"<?php echo esc_url( includes_url() . '/js/jquery/jquery.js' ); ?>",
+    // 	"<?php echo esc_url( get_template_directory_uri() . '/js/nprogress.js' ); ?>",
+    // 	"<?php echo esc_url( includes_url() . '/js/jquery/jquery-migrate.min.js' ); ?>",
+    // 	"<?php echo esc_url( includes_url() . '/js/comment-reply.min.js' ); ?>",
+    // 	"<?php echo esc_url( get_template_directory_uri() . '/js/theme.js' ); ?>"
+    // );
+    head.ready(function () {
+    	//NProgress.start();
+		//NProgress.done();
+        jQuery("#home-banner").attr("src","<?php echo esc_url( get_template_directory_uri() . '/images/banner.jpg' ); ?>");
+    });
+</script>
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-XXX', 'XXX.com');
+ga('send', 'pageview');
+</script>
+</body>
+</html>
