@@ -1,0 +1,13 @@
+.htaccess
+wp-admin
+wp-config.php.bak
+wp-config.php
+robots.txt
+sitemap.*
+.DS_Store
+*.apk
+*.graffle
+favicon.psd
+favicon.png
+watermark.psd
+footer.php

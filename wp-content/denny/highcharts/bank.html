@@ -1,0 +1,377 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Personal Accounting</title>
+
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+		<script type="text/javascript">
+function monthly_tooltip() {
+
+
+               if (this.y ==36.7  && this.x == Date.UTC(2012,10,23 )) {
+                  return '[expenses:租房:电费]36.7: 10月电费'
+               }
+
+               if (this.y ==32.6  && this.x == Date.UTC(2012,10,23 )) {
+                  return '[expenses:租房:电费]32.6: 11月电费'
+               }
+
+               if (this.y ==52  && this.x == Date.UTC(2012,11,02 )) {
+                  return '[expenses:租房:水费]52: 交水费 (TODO: 具体金额有待确认)'
+               }
+
+               if (this.y ==108  && this.x == Date.UTC(2012,11,04 )) {
+                  return '[expenses:租房:杂项]108: 淘宝上买烧水的保温壶'
+               }
+
+               if (this.y ==89.4  && this.x == Date.UTC(2012,11,10 )) {
+                  return '[expenses:租房:杂项]89.4: 买甲醛的防剂'
+               }
+
+               if (this.y ==32.4  && this.x == Date.UTC(2012,11,14 )) {
+                  return '[expenses:租房:电费]32.4: 12月电费'
+               }
+
+               if (this.y ==50  && this.x == Date.UTC(2012,11,14 )) {
+                  return '[expenses:租房:燃气费]50: 燃气费'
+               }
+
+
+
+               if (this.y ==53  && this.x == Date.UTC(2012,10,15 )) {
+                  return '[expenses:吃饭:零食]53: 徐家汇星巴克，与liki'
+               }
+
+               if (this.y ==135  && this.x == Date.UTC(2012,10,15 )) {
+                  return '[expenses:吃饭:餐馆]135: 萨莉亚, 公司同事吃饭'
+               }
+
+               if (this.y ==15  && this.x == Date.UTC(2012,10,17 )) {
+                  return '[expenses:吃饭:做饭]15: 买菜'
+               }
+
+               if (this.y ==54  && this.x == Date.UTC(2012,10,17 )) {
+                  return '[expenses:吃饭:餐馆]54: 静安寺吃饭'
+               }
+
+               if (this.y ==142  && this.x == Date.UTC(2012,10,18 )) {
+                  return '[expenses:吃饭:餐馆]142: 和周宁，秀秀在绿茶吃饭'
+               }
+
+               if (this.y ==48  && this.x == Date.UTC(2012,10,21 )) {
+                  return '[expenses:吃饭:零食]48: 徐家东方既白，与liki'
+               }
+
+               if (this.y ==30  && this.x == Date.UTC(2012,10,25 )) {
+                  return '[expenses:吃饭:餐馆]30: 和秀秀在中兴泰富的食堂吃饭'
+               }
+
+               if (this.y ==17  && this.x == Date.UTC(2012,10,26 )) {
+                  return '[expenses:吃饭:做饭]17: 买菜'
+               }
+
+               if (this.y ==15  && this.x == Date.UTC(2012,10,26 )) {
+                  return '[expenses:吃饭:餐馆]15: 吃烧鸭饭'
+               }
+
+               if (this.y ==53  && this.x == Date.UTC(2012,10,27 )) {
+                  return '[expenses:吃饭:餐馆]53: 中山西路的云南爆香串吃晚饭'
+               }
+
+               if (this.y ==93  && this.x == Date.UTC(2012,10,27 )) {
+                  return '[expenses:吃饭:餐馆]93: 公司同事吃饭，桂林路粤菜'
+               }
+
+               if (this.y ==65  && this.x == Date.UTC(2012,10,28 )) {
+                  return '[expenses:吃饭:零食]65: 徐家汇星巴克，与liki'
+               }
+
+               if (this.y ==23  && this.x == Date.UTC(2012,11,01 )) {
+                  return '[expenses:吃饭:餐馆]23: 陪秀秀去上师大，在避风塘吃饭'
+               }
+
+               if (this.y ==52  && this.x == Date.UTC(2012,11,05 )) {
+                  return '[expenses:吃饭:零食]52: 徐家东方既白，与liki'
+               }
+
+               if (this.y ==99  && this.x == Date.UTC(2012,11,07 )) {
+                  return '[expenses:吃饭:餐馆]99: 在外婆家吃饭'
+               }
+
+               if (this.y ==20  && this.x == Date.UTC(2012,11,08 )) {
+                  return '[expenses:吃饭:餐馆]20: 汉堡王吃午饭'
+               }
+
+
+
+               if (this.y ==294.94  && this.x == Date.UTC(2012,11,04 )) {
+                  return '[expenses:造型:服装]294.94: 淘宝上冬天的大衣'
+               }
+
+               if (this.y ==294.94  && this.x == Date.UTC(2012,11,04 )) {
+                  return '[expenses:造型:服装]294.94: 淘宝上冬天的大衣'
+               }
+
+               if (this.y ==275.22  && this.x == Date.UTC(2012,11,04 )) {
+                  return '[expenses:造型:服装]275.22: 淘宝上冬天的鞋子'
+               }
+
+
+
+               if (this.y ==53  && this.x == Date.UTC(2012,10,25 )) {
+                  return '[expenses:交通:的士]53: 从liki家打车回中山公园　'
+               }
+
+               if (this.y ==27  && this.x == Date.UTC(2012,10,26 )) {
+                  return '[expenses:交通:的士]27: 打车回家'
+               }
+
+               if (this.y ==26  && this.x == Date.UTC(2012,10,30 )) {
+                  return '[expenses:交通:的士]26: 早上起晚了，打车来公司'
+               }
+
+               if (this.y ==530  && this.x == Date.UTC(2012,11,04 )) {
+                  return '[expenses:交通:火车]530: 买16号和秀秀回长沙的火车票'
+               }
+
+               if (this.y ==26  && this.x == Date.UTC(2012,11,05 )) {
+                  return '[expenses:交通:的士]26: 早上起晚了，打车来公司'
+               }
+
+               if (this.y ==22  && this.x == Date.UTC(2012,11,05 )) {
+                  return '[expenses:交通:的士]22: 晚上打车回家'
+               }
+
+               if (this.y ==25  && this.x == Date.UTC(2012,11,06 )) {
+                  return '[expenses:交通:的士]25: 晚上打车回家'
+               }
+
+
+
+               if (this.y ==96.49  && this.x == Date.UTC(2012,10,23 )) {
+                  return '[expenses:手机]96.49: 手机充值'
+               }
+
+               if (this.y ==96.69  && this.x == Date.UTC(2012,11,14 )) {
+                  return '[expenses:手机]96.69: 帮秀秀充移动手机'
+               }
+
+               if (this.y ==96.8  && this.x == Date.UTC(2012,11,14 )) {
+                  return '[expenses:手机]96.8: 联通手机充值'
+               }
+
+
+
+               if (this.y ==130.63  && this.x == Date.UTC(2012,10,27 )) {
+                  return '[expenses:杂项开支:日常开支]130.63: 乐购买日用'
+               }
+
+               if (this.y ==99  && this.x == Date.UTC(2012,11,04 )) {
+                  return '[expenses:杂项开支]99: 淘宝上买DDR2的2G内存'
+               }
+
+               if (this.y ==310  && this.x == Date.UTC(2012,11,08 )) {
+                  return '[expenses:杂项开支]310: 邻居在装修味道太难闻,在新时空住'
+               }
+
+               if (this.y ==210  && this.x == Date.UTC(2012,11,12 )) {
+                  return '[expenses:杂项开支]210: 通腾旅舍，地下室住3天'
+               }
+
+
+
+               if (this.y ==100  && this.x == Date.UTC(2012,10,17 )) {
+                  return '[expenses:亲友:秀秀]100: 公交卡充值'
+               }
+
+               if (this.y ==75.05  && this.x == Date.UTC(2012,11,04 )) {
+                  return '[expenses:亲友:秀秀]75.05: 淘宝上帮秀秀买拖鞋'
+               }
+
+               if (this.y ==500  && this.x == Date.UTC(2012,11,08 )) {
+                  return '[expenses:亲友:秀秀]500: 给秀秀买巴黎春天的鞋子'
+               }
+
+
+     return '[]'
+};
+
+$(function () {
+    var chart;
+    $(document).ready(function() {
+        chart = new Highcharts.Chart({
+            chart: {
+                renderTo: 'container',
+                type: 'spline',
+            },
+            title: {
+                text: '[Denny] Monthly Expense Report',
+                x: -20 //center
+            },
+            xAxis: {
+                type: 'datetime',
+                dateTimeLabelFormats: { // don't display the dummy year
+                    month: '%e. %b',
+                    year: '%b'
+                }
+            },
+            yAxis: {
+                title: {
+                    text: 'Amount (Yuan)'
+                },
+                min:0
+            },
+            tooltip: {
+                formatter: monthly_tooltip
+            },
+            series: [
+
+                          {
+                name: '租房',
+                data: [
+
+                    [Date.UTC(2012,10,23 ), 36.7],
+
+                    [Date.UTC(2012,10,23 ), 32.6],
+
+                    [Date.UTC(2012,11,02 ), 52],
+
+                    [Date.UTC(2012,11,04 ), 108],
+
+                    [Date.UTC(2012,11,10 ), 89.4],
+
+                    [Date.UTC(2012,11,14 ), 32.4],
+
+                    [Date.UTC(2012,11,14 ), 50],
+
+                ]
+            },
+
+                          {
+                name: '吃饭',
+                data: [
+
+                    [Date.UTC(2012,10,15 ), 53],
+
+                    [Date.UTC(2012,10,15 ), 135],
+
+                    [Date.UTC(2012,10,17 ), 15],
+
+                    [Date.UTC(2012,10,17 ), 54],
+
+                    [Date.UTC(2012,10,18 ), 142],
+
+                    [Date.UTC(2012,10,21 ), 48],
+
+                    [Date.UTC(2012,10,25 ), 30],
+
+                    [Date.UTC(2012,10,26 ), 17],
+
+                    [Date.UTC(2012,10,26 ), 15],
+
+                    [Date.UTC(2012,10,27 ), 53],
+
+                    [Date.UTC(2012,10,27 ), 93],
+
+                    [Date.UTC(2012,10,28 ), 65],
+
+                    [Date.UTC(2012,11,01 ), 23],
+
+                    [Date.UTC(2012,11,05 ), 52],
+
+                    [Date.UTC(2012,11,07 ), 99],
+
+                    [Date.UTC(2012,11,08 ), 20],
+
+                ]
+            },
+
+                          {
+                name: '造型',
+                data: [
+
+                    [Date.UTC(2012,11,04 ), 294.94],
+
+                    [Date.UTC(2012,11,04 ), 294.94],
+
+                    [Date.UTC(2012,11,04 ), 275.22],
+
+                ]
+            },
+
+                          {
+                name: '交通',
+                data: [
+
+                    [Date.UTC(2012,10,25 ), 53],
+
+                    [Date.UTC(2012,10,26 ), 27],
+
+                    [Date.UTC(2012,10,30 ), 26],
+
+                    [Date.UTC(2012,11,04 ), 530],
+
+                    [Date.UTC(2012,11,05 ), 26],
+
+                    [Date.UTC(2012,11,05 ), 22],
+
+                    [Date.UTC(2012,11,06 ), 25],
+
+                ]
+            },
+
+                          {
+                name: '手机',
+                data: [
+
+                    [Date.UTC(2012,10,23 ), 96.49],
+
+                    [Date.UTC(2012,11,14 ), 96.69],
+
+                    [Date.UTC(2012,11,14 ), 96.8],
+
+                ]
+            },
+
+                          {
+                name: '杂项开支',
+                data: [
+
+                    [Date.UTC(2012,10,27 ), 130.63],
+
+                    [Date.UTC(2012,11,04 ), 99],
+
+                    [Date.UTC(2012,11,08 ), 310],
+
+                    [Date.UTC(2012,11,12 ), 210],
+
+                ]
+            },
+
+                          {
+                name: '亲友',
+                data: [
+
+                    [Date.UTC(2012,10,17 ), 100],
+
+                    [Date.UTC(2012,11,04 ), 75.05],
+
+                    [Date.UTC(2012,11,08 ), 500],
+
+                ]
+            },
+
+        ]
+        });
+    });
+
+});
+		</script>
+	</head>
+	<body>
+<script src='http://blog.ec-ae.com/wp-content/denny/highcharts/js/highcharts.js'></script>
+<script src='http://blog.ec-ae.com/wp-content/denny/highcharts/js/modules/exporting.js'></script>
+<div id='container' style='min-width: 400px; height: 400px; margin: 0 auto'></div>
+	</body>
+</html>

@@ -1,0 +1,27 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Denny Zhang -- @dennyzhang001
+    Tengfei Qi -- @TengfeiQi
+
+# THANKS
+
+    Sophia
+
+# TECHNOLOGY COLOPHON
+
+    CSS3, HTML5
+    Grunt, HTML5, jQuery
+
+    Source: https://github.com/DennyZhang/www.dennyzhang.com
+
+-- 
+Denny Zhang(张巍)
+Email: denny.zhang001@gmail.com
+Website: http://www.dennyzhang.com/
+
+Don't judge someone's past, when you haven't walked their journey!
+
+↖(^ω^)↗

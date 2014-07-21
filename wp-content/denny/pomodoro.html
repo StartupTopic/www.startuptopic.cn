@@ -1,0 +1,30 @@
+<html>
+<head>
+<script>
+function start_pomodoro() {
+  var havePermission = window.webkitNotifications.checkPermission();
+  if (havePermission == 0) {
+    // 0 is PERMISSION_ALLOWED
+    var notification = window.webkitNotifications.createNotification(
+      'http://i.stack.imgur.com/dmHl0.png',
+      'Chrome notification!',
+    'Here is the notification text'
+    );
+
+    notification.onclick = function () {
+      window.open("http://stackoverflow.com/a/13328397/1269037");
+      notification.close();
+    }
+    notification.show();
+  } else {
+      window.webkitNotifications.requestPermission();
+  }
+}
+</script>
+</head>
+<body>
+<div style="width: 300px; height: 100px; background: yellow" onclick="start_pomodoro()">Start pomodoro</div>
+<div style="width: 300px; height: 100px; background: green">10:10</div>
+<div style="width: 300px; height: 100px; background: brown" onclick="stop_pomodoro()">Stop pomodoro</div>
+</body>
+</html>

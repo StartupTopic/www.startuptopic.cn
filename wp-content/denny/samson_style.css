@@ -1,0 +1,203 @@
+/* Reset */
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin:0;
+  padding:0;
+  border:0;
+  outline:0;
+  font-size:100%;
+  vertical-align:baseline;
+  background:transparent;
+}
+
+body {
+  line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+  display:block;
+  zoom:1;
+}
+
+nav ul {
+  list-style:none;
+}
+
+blockquote, q {
+  quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content:'';
+  content:none;
+}
+
+a {
+  margin:0;
+  padding:0;
+  font-size:100%;
+  vertical-align:baseline;
+  background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+  background-color:#ff9;
+  color:#000;
+  text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+  background-color:#ff9;
+  color:#000;
+  font-style:italic;
+  font-weight:bold;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+  border-bottom:1px dotted;
+  cursor:help;
+}
+
+table {
+  border-collapse:collapse;
+  border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+  display:block;
+  height:1px;
+  border:0;
+  border-top:1px solid #cccccc;
+  margin:1em 0;
+  padding:0;
+}
+
+input, select {
+  vertical-align:middle;
+}
+
+/* Basic */
+body {
+  background: url("/images/bg.png") repeat scroll 0 0 #E6E6E6;
+  font: 14px/1.5 'myriad pro',corbel,'lucida grande',helvetica,sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+  width: 960px;
+  padding: 10px 20px;
+}
+
+article {
+  width: 580px;
+  margin-bottom: 15px;
+}
+
+a, a:visited {
+  color: #666;
+  padding: 0;
+  text-decoration: none;
+}
+a:hover {
+  background-color: #CCC;
+}
+
+nav {
+  float: right;
+  margin-left: 20px;
+}
+
+nav > ul > li {
+  width: 360px;
+  margin-top: 5px;
+}
+
+nav > ul > li a, nav > ul > li a:visited {
+  background: none repeat scroll 0 0 #2B2B2B;
+  color: #FFFFFF;
+  display: block;
+  font-weight: bold;
+  padding: 13px 12px 11px;
+  position: relative;
+  text-decoration: none;
+  -webkit-transition: background-color .4s ease-in;
+  -moz-transition: background-color .4s ease-in;
+  -o-transition: background-color .4s ease-in;
+  transition: background-color .4s ease-in;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  behavior: url(stylesheets/PIE.htc);
+}
+
+nav > ul > li a:hover {
+  background: none repeat scroll 0 0 #3C619E;
+  /* text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.765); */
+}
+
+nav > ul > li a span {
+  position: absolute;
+  right: 12px;
+  top: 11px;
+  font: 22px/24px Helvetica,Arial,sans-serif;
+}
+
+nav > ul > li small {
+  position: absolute;
+  right: 30px;
+  text-align: right;
+  top: 13px;
+  font-weight: normal;
+  color: rgba(255, 255, 255, 0.765);
+  text-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+}
+
+.avatar img {
+  width: 150px;
+  height: 150px;
+}
+
+section[id] {
+  margin: 10px 0;
+}
+
+#quotes ul {
+  list-style-type: none;
+}
+
+#quotes ul li {
+  margin: 10px 2px;
+}
+
+blockquote {
+  font-style: italic;
+  width: 560px;
+}
+
+blockquote cite {
+  display: block;
+  text-align: right;
+  font-size: 13px;
+}
+
+footer {
+  text-align: right;
+  font-size: 12px;
+}

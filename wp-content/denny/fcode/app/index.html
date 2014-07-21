@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en" ng-app="xzbApp">
+<head>
+  <meta charset="utf-8">
+  <title>My AngularJS App</title>
+  <link rel="stylesheet" href="css/app.css"/>
+</head>
+<body>
+  <ul class="menu">
+    <li><a href="#/home">home</a></li>
+    <li><a href="#/detail">detail</a></li>
+  </ul>
+
+  <div ng-view></div>
+
+  <div>小字报: v<span app-version></span></div>
+
+  <!-- In production use:
+  <script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.1.1/angular.min.js"></script>
+  -->
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/angular.js/1.1.1/angular.min.js"></script>
+  <script src="lib/angular/angular-resource.min.js"></script>
+  <script src="js/xzbapp.js"></script>
+</body>
+</html>
